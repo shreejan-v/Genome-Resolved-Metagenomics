@@ -60,3 +60,25 @@ This work was carried out as part of the **Minor Project (21BTP302L)** at **SRM 
 
 
 ## 🔬 Bioinformatics Workflow
+
+The computational analysis was performed using an end-to-end genome-resolved metagenomics pipeline to recover, classify, and functionally characterize metagenome-assembled genomes (MAGs).
+
+| Step | Tool(s) | Purpose |
+|------|---------|---------|
+| **1. Quality Assessment** | FastQC | Evaluate raw sequencing read quality |
+| **2. Quality Filtering & Trimming** | fastp | Remove adapters, low-quality bases, and filtering |
+| **3. Metagenome Assembly** | MEGAHIT | Assemble high-quality contigs from filtered reads |
+| **4. Assembly Evaluation** | QUAST | Assess assembly quality statistics |
+| **5. Taxonomic Profiling** | Kraken2, Bracken | Read-level taxonomic classification and abundance estimation |
+| **6. Coverage Estimation** | Bowtie2 | Map reads back to assembled contigs for coverage calculation |
+| **7. Genome Binning** | MetaBAT2, MaxBin2, CONCOCT | Recover draft metagenome-assembled genomes (MAGs) |
+| **8. Bin Refinement** | DAS Tool | Integrate and refine MAGs from multiple binning methods |
+| **9. MAG Quality Assessment** | CheckM2 | Evaluate genome completeness and contamination |
+| **10. Gene Prediction & Annotation** | Prokka | Predict coding sequences and annotate genes |
+| **11. Functional Annotation** | eggNOG-mapper | Assign orthologs, GO terms, COGs, and KEGG Orthology |
+| **12. Taxonomic Classification of MAGs** | GTDB-Tk | Assign standardized GTDB taxonomy to recovered MAGs |
+| **13. Functional Analyses** | GO, COG, KEGG | Characterize biological functions and metabolic pathways |
+| **14. Protein Domain Analysis** | InterProScan | Validate conserved protein domains and functional signatures |
+| **15. Plastic-Degrading Enzyme Identification** | eggNOG + InterProScan | Identify candidate plastic-degrading enzymes based on functional annotation and conserved domains |
+
+---
