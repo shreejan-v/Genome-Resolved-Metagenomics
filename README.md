@@ -49,7 +49,7 @@ This repository presents the computational component of my undergraduate researc
 - COG functional classification
 - KEGG pathway reconstruction
 - InterPro domain annotation
-- Plastic-degrading enzyme candidate identification
+- Computational prediction of candidate plastic-degrading enzymes
 
 ---
 
@@ -271,7 +271,7 @@ Genome-Resolved-Metagenomics/
 
 ---
 
-- InterPro-supported domain analysis identified multiple candidate proteins potentially associated with plastic degradation. These candidates require experimental validation to confirm their biological activity.
+- InterPro-supported domain analysis identified multiple computationally predicted candidate proteins potentially associated with plastic degradation. These predictions require experimental validation to confirm their biological activity.
 - ---
 
 # 🚀 Future Work
