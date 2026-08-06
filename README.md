@@ -265,7 +265,11 @@ Future extensions of this project include:
 
 # 📖 Citation
 
-If you use this repository or adapt the workflow, please cite this project appropriately.
+If you use this repository, workflow, or analysis in your research or academic work, please cite it as:
+
+> Shreejan V. (2026). *Genome-Resolved Metagenomic Analysis of Microbial Communities from Plastic-Polluted Coastal Sediments*. GitHub Repository. https://github.com/shreejan-v/Genome-Resolved-Metagenomics
+
+If this work is published in a peer-reviewed journal in the future, this citation will be updated accordingly.
 
 **Project:**
 
