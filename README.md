@@ -1,8 +1,14 @@
 # 🧬 Genome-Resolved Metagenomic Analysis of Microbial Communities from Plastic-Polluted Coastal Sediments
 
+![Workflow](figures/Figure1_Workflow.png)
+
+---
+
 ## 📖 Project Overview
 
-This project investigates the microbial diversity and functional potential of plastic-polluted coastal sediments using a genome-resolved metagenomics approach. The study focuses on reconstructing microbial genomes from environmental sequencing data to understand microbial community composition and identify potential plastic-degrading microorganisms.
+This repository presents an end-to-end **genome-resolved metagenomics workflow** for recovering, characterizing, and functionally annotating metagenome-assembled genomes (MAGs) from plastic-polluted coastal sediment samples.
+
+The project integrates quality control, metagenome assembly, genome binning, MAG quality assessment, taxonomic classification, and functional annotation to investigate microbial diversity and identify candidate plastic-degrading enzymes.
 
 This work was carried out as part of the **Minor Project (21BTP302L)** at **SRM Institute of Science and Technology** under the supervision of **Dr. M. Thirumurthy**.
 
@@ -10,99 +16,28 @@ This work was carried out as part of the **Minor Project (21BTP302L)** at **SRM 
 
 ## 🎯 Objectives
 
-- Perform quality assessment of metagenomic sequencing data.
-- Assemble high-quality metagenomic contigs.
-- Reconstruct metagenome-assembled genomes (MAGs).
-- Perform taxonomic classification.
-- Explore the functional potential of microbial communities.
+- Assess sequencing read quality
+- Assemble metagenomic reads into contigs
+- Recover high-quality MAGs
+- Perform taxonomic classification
+- Functionally annotate recovered genomes
+- Reconstruct metabolic pathways
+- Identify candidate plastic-degrading enzymes
 
 ---
 
-## 🧪 Sample Information
+## ⭐ Highlights
 
-- Sample Type: Plastic-polluted coastal sediment
-- Location: Mayiladuthurai, Tamil Nadu, India
-- Sequencing Platform: Illumina NovaSeq 6000
-- DNA Extraction: Beaver Beads Nucleic Acid Extraction Kit
+- Genome-resolved metagenomics workflow
+- High-quality MAG reconstruction
+- Taxonomic profiling using Kraken2 and GTDB-Tk
+- Functional annotation using eggNOG-mapper
+- GO term enrichment
+- COG functional classification
+- KEGG pathway reconstruction
+- InterPro domain annotation
+- Plastic-degrading enzyme candidate identification
 
 ---
 
 ## 🔬 Bioinformatics Workflow
-
-Sample Collection
-
-↓
-
-DNA Extraction
-
-↓
-
-Quality Control (FastQC & fastp)
-
-↓
-
-Metagenome Assembly (MEGAHIT)
-
-↓
-
-Genome Binning (MetaBAT2 / MaxBin2 / CONCOCT)
-
-↓
-
-Genome Quality Assessment
-
-↓
-
-Taxonomic Classification (Kraken2, GTDB-Tk)
-
-↓
-
-Functional Annotation
-
----
-
-## 🛠️ Tools Used
-
-- FastQC
-- fastp
-- MEGAHIT
-- QUAST
-- Kraken2
-- Bracken
-- GTDB-Tk
-- MetaBAT2
-- MaxBin2
-- CONCOCT
-- CheckM
-- Prokka
-- BLAST
-
----
-
-## 📊 Key Results
-
-- 99.44% reads retained after quality filtering
-- Q30 improved from 90.14% to 95.20%
-- Bacteria-dominated microbial community
-- 96.5% of reads remained unclassified, suggesting substantial novel microbial diversity
-
----
-
-## 📚 Repository Status
-
-🚧 This repository is currently being expanded with:
-- Workflow documentation
-- Project figures
-- Analysis summaries
-- Scripts
-- Presentation material
-
----
-
-## 👨‍🔬 Author
-
-**Shreejan V**
-
-B.Tech Biotechnology (Computational Biology)
-
-SRM Institute of Science and Technology
