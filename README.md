@@ -82,3 +82,54 @@ The computational analysis was performed using an end-to-end genome-resolved met
 | **15. Plastic-Degrading Enzyme Identification** | eggNOG + InterProScan | Identify candidate plastic-degrading enzymes based on functional annotation and conserved domains |
 
 ---
+# 🛠️ Bioinformatics Tools
+
+| Tool | Version | Purpose |
+|------|---------|---------|
+| FastQC | v0.12.1 | Raw sequencing quality assessment |
+| fastp | v0.24.1 | Read filtering and adapter trimming |
+| MEGAHIT | v1.2.9 | De novo metagenome assembly |
+| QUAST | v5.3.0 | Assembly quality assessment |
+| Kraken2 | v2.1.5 | Read-level taxonomic classification |
+| Bracken | v3.1 | Species abundance estimation |
+| Bowtie2 | v2.5.4 | Read mapping and coverage estimation |
+| MetaBAT2 | v2.18 | Genome binning |
+| MaxBin2 | v2.2.7 | Genome binning |
+| CONCOCT | v1.1.0 | Genome binning |
+| DAS Tool | v1.1.7 | Bin refinement |
+| CheckM2 | v1.1.0 | MAG quality assessment |
+| Prokka | v1.14.6 | Genome annotation |
+| eggNOG-mapper | v2.1.15 | Functional annotation (GO, COG, KEGG) |
+| GTDB-Tk | v2.7.2 (R232) | Taxonomic classification of MAGs |
+| InterProScan | Web Server | Protein domain identification |
+---
+
+# 📊 Results Summary
+
+The computational workflow successfully reconstructed and characterized metagenome-assembled genomes (MAGs) from plastic-polluted coastal sediment samples.
+
+## Key Findings
+
+- **99.44%** of sequencing reads were retained after quality filtering using fastp.
+- High-quality metagenomic assembly was generated using **MEGAHIT**.
+- Read-level taxonomic profiling using **Kraken2** revealed a bacteria-dominated microbial community with a large proportion of unclassified reads, suggesting the presence of potentially novel microorganisms.
+- Two high-quality MAGs were recovered following genome binning and refinement.
+- GTDB-Tk classified the recovered MAGs as:
+
+| MAG | GTDB-Tk Classification |
+|------|------------------------|
+| **bin.3** | *Desulfobacterota* (Class: JAENJC01) |
+| **maxbin.002** | *Chloroflexota* (Class: Anaerolineae) |
+
+- Functional annotation identified genes involved in:
+  - Central carbon metabolism
+  - Environmental adaptation
+  - Transport systems
+  - Energy metabolism
+  - Stress response
+
+- KEGG pathway reconstruction, GO term analysis, and COG functional classification revealed diverse metabolic capabilities in both MAGs.
+
+- InterPro-supported analysis identified several **candidate plastic-degrading enzymes**, including hydrolase-related proteins requiring future experimental validation.
+
+---
