@@ -149,5 +149,32 @@ Genome-Resolved-Metagenomics/
 ---
 
 - InterPro-supported domain analysis identified multiple candidate proteins potentially associated with plastic degradation. These candidates require experimental validation to confirm their biological activity.
+- ---
+
+# 🚀 Future Work
+
+Future extensions of this project include:
+
+- Comparative genomic analysis of recovered MAGs.
+- Phylogenomic analysis using marker gene-based trees.
+- Experimental validation of candidate plastic-degrading enzymes.
+- Functional characterization using transcriptomic and proteomic approaches.
+- Integration of additional metagenomic datasets from diverse marine environments.
+
+---
+
+# 👨‍🔬 Author
+
+**Shreejan V**
+
+B.Tech Biotechnology (Computational Biology)
+
+SRM Institute of Science and Technology
+
+---
+
+## 📜 License
+
+This repository is intended for academic and research purposes. A suitable open-source license will be added as the repository continues to evolve.
 
 ---
