@@ -108,6 +108,8 @@ The computational analysis was performed using an end-to-end genome-resolved met
 The genome-resolved metagenomics pipeline successfully reconstructed, classified, and functionally characterized metagenome-assembled genomes (MAGs) recovered from plastic-polluted coastal sediment samples.
 ---
 
+---
+
 # 📈 Project Figures
 
 ## Figure 1. Genome-Resolved Metagenomics Workflow
@@ -116,7 +118,7 @@ The genome-resolved metagenomics pipeline successfully reconstructed, classified
 <img src="figures/Figure1_Workflow.png" width="1000">
 </p>
 
-**Figure 1.** Overview of the computational workflow used for genome-resolved metagenomic analysis, including sequencing quality assessment, assembly, taxonomic profiling, genome binning, MAG quality assessment, functional annotation, pathway reconstruction, and identification of candidate plastic-degrading enzymes.
+**Figure 1.** End-to-end computational workflow used for genome-resolved metagenomic analysis, including sequencing quality assessment, metagenome assembly, taxonomic profiling, genome binning, MAG quality assessment, functional annotation, pathway reconstruction, and identification of candidate plastic-degrading enzymes.
 
 ---
 
@@ -126,7 +128,47 @@ The genome-resolved metagenomics pipeline successfully reconstructed, classified
 <img src="figures/Figure2_MAG_Quality.png" width="900">
 </p>
 
-**Figure 2.** Quality assessment of the recovered metagenome-assembled genomes (MAGs) using CheckM2. The figure summarizes completeness, contamination, genome statistics, and assembly metrics for the recovered MAGs.
+**Figure 2.** Quality assessment of the recovered metagenome-assembled genomes (MAGs) using CheckM2. Completeness, contamination, genome statistics, and assembly metrics are summarized for the recovered MAGs.
+
+---
+
+## Figure 3. GTDB-Tk Taxonomic Classification
+
+<p align="center">
+<img src="figures/Figure3_GTDB_Taxonomy.png" width="900">
+</p>
+
+**Figure 3.** GTDB-Tk taxonomic classification of the recovered MAGs. Both genomes were classified within the bacterial domain to the highest confidently resolved taxonomic rank, while no reliable genus- or species-level assignment was obtained.
+
+---
+
+## Figure 4. COG Functional Category Distribution
+
+<p align="center">
+<img src="figures/Figure4_COG_Functional_Distribution.png" width="900">
+</p>
+
+**Figure 4.** Functional classification of predicted proteins based on COG annotations generated using eggNOG-mapper. The comparison illustrates the distribution of major functional categories across the recovered MAGs.
+
+---
+
+## Figure 5. KEGG Pathway Reconstruction
+
+<p align="center">
+<img src="figures/Figure5_KEGG_Pathway_Reconstruction.png" width="900">
+</p>
+
+**Figure 5.** KEGG pathway reconstruction based on KEGG Orthology assignments obtained through eggNOG-mapper. Major metabolic pathways reveal the functional potential of the recovered microbial genomes.
+
+---
+
+## Figure 6. Candidate Plastic-Degrading Enzymes
+
+<p align="center">
+<img src="figures/Figure6_Plastic_Degrading_Enzymes.png" width="900">
+</p>
+
+**Figure 6.** Candidate plastic-degrading enzymes predicted using the combined Prokka → eggNOG-mapper → InterProScan annotation workflow. These computational predictions identify proteins with potential roles in polymer degradation and require experimental validation.
 
 ---
 ## Key Findings
