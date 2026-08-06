@@ -1,6 +1,5 @@
 # 🧬 Genome-Resolved Metagenomic Analysis of Microbial Communities from Plastic-Polluted Coastal Sediments
 
-![Workflow](figures/Figure1_Workflow.png)
 
 ---
 
