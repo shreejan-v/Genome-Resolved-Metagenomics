@@ -40,4 +40,23 @@ This work was carried out as part of the **Minor Project (21BTP302L)** at **SRM 
 
 ---
 
+---
+
+# 📊 Key Results
+
+| Analysis | Result |
+|----------|--------|
+| Quality filtering | 99.44% reads retained after fastp |
+| Sequencing quality | Q30 improved from 90.14% to 95.20% |
+| Assembly | High-quality metagenomic assembly generated using MEGAHIT |
+| Taxonomic profiling | Bacteria-dominated community with substantial unclassified diversity |
+| MAG recovery | Two high-quality metagenome-assembled genomes (MAGs) recovered |
+| Taxonomic classification | MAGs classified using GTDB-Tk (Release R232) |
+| Functional annotation | Gene prediction and annotation using Prokka and eggNOG-mapper |
+| Functional analyses | GO terms, COG functional categories and KEGG pathway reconstruction completed |
+| Candidate enzymes | InterPro-supported plastic degradation enzyme candidates identified |
+
+---
+
+
 ## 🔬 Bioinformatics Workflow
