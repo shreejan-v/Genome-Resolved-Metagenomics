@@ -11,4 +11,4 @@ Analyses performed:
 - Protein family assignment
 - Functional signature prediction
 
-The resulting annotations were integrated with eggNOG-mapper functional assignments to identify candidate proteins potentially associated with plastic degradation.
+The resulting annotations were integrated with eggNOG-mapper functional assignments to identify candidate proteins potentially associated with plastic degradation..
