@@ -1,9 +1,9 @@
-# 🧬 Genome-Resolved Metagenomic Analysis of Microbial Communities from Plastic-Polluted Coastal Sediments
+#  Genome-Resolved Metagenomic Analysis of Microbial Communities from Plastic-Polluted Coastal Sediments
 
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 This repository presents an end-to-end **genome-resolved metagenomics workflow** for recovering, characterizing, and functionally annotating metagenome-assembled genomes (MAGs) from plastic-polluted coastal sediment samples.
 
@@ -12,7 +12,7 @@ The project integrates quality control, metagenome assembly, genome binning, MAG
 This repository presents the computational component of my undergraduate research in Computational Biology at SRM Institute of Science and Technology, conducted under the supervision of Dr. M. Thirumurthy..
 
 ---
-## 📑 Table of Contents
+##  Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Objectives](#-objectives)
@@ -27,7 +27,7 @@ This repository presents the computational component of my undergraduate researc
 - [Citation](#-citation)
 - [Author](#-author)
 
-## 🎯 Objectives
+##  Objectives
 
 - Assess sequencing read quality
 - Assemble metagenomic reads into contigs
@@ -39,7 +39,7 @@ This repository presents the computational component of my undergraduate researc
 
 ---
 
-## ⭐ Highlights
+##  Highlights
 
 - Genome-resolved metagenomics workflow
 - High-quality MAG reconstruction
@@ -53,7 +53,7 @@ This repository presents the computational component of my undergraduate researc
 
 ---
 
-# 📊 Key Results
+#  Key Results
 
 | Analysis | Result |
 |----------|--------|
@@ -70,7 +70,7 @@ This repository presents the computational component of my undergraduate researc
 ---
 
 
-## 🔬 Bioinformatics Workflow
+##  Bioinformatics Workflow
 
 The computational analysis was performed using an end-to-end genome-resolved metagenomics pipeline to recover, classify, and functionally characterize metagenome-assembled genomes (MAGs).
 
@@ -93,7 +93,7 @@ The computational analysis was performed using an end-to-end genome-resolved met
 | **15. Plastic-Degrading Enzyme Identification** | eggNOG + InterProScan | Identify candidate plastic-degrading enzymes based on functional annotation and conserved domains |
 
 ---
-# 🛠️ Bioinformatics Tools
+#  Bioinformatics Tools
 
 | Tool | Version | Purpose |
 |------|---------|---------|
@@ -116,14 +116,14 @@ The computational analysis was performed using an end-to-end genome-resolved met
 
 ---
 
-# 📊 Results Summary
+#  Results Summary
 
 The genome-resolved metagenomics pipeline successfully reconstructed, classified, and functionally characterized metagenome-assembled genomes (MAGs) recovered from plastic-polluted coastal sediment samples.
 ---
 
 ---
 
-# 📈 Project Figures
+#  Project Figures
 
 ## Figure 1. Genome-Resolved Metagenomics Workflow
 
@@ -185,7 +185,7 @@ The genome-resolved metagenomics pipeline successfully reconstructed, classified
 
 ---
 
-# 📂 Repository Organisation
+#  Repository Organisation
 
 ```text
 Genome-Resolved-Metagenomics/
@@ -255,7 +255,7 @@ Genome-Resolved-Metagenomics/
 - KEGG pathway reconstruction, GO term analysis, and COG functional classification revealed diverse metabolic capabilities in both MAGs.
 - ---
 
-# 📂 Repository Structure
+#  Repository Structure
 
 ```text
 Genome-Resolved-Metagenomics/
@@ -274,7 +274,7 @@ Genome-Resolved-Metagenomics/
 - InterPro-supported domain analysis identified multiple computationally predicted candidate proteins potentially associated with plastic degradation. These predictions require experimental validation to confirm their biological activity.
 - ---
 
-# 🚀 Future Work
+#  Future Work
 
 Future extensions of this project include:
 
@@ -286,7 +286,7 @@ Future extensions of this project include:
 
 ---
 
-# 📖 Citation
+#  Citation
 
 If you use this repository, workflow, or analysis in your research or academic work, please cite it as:
 
@@ -295,7 +295,7 @@ If you use this repository, workflow, or analysis in your research or academic w
 If this work is published in a peer-reviewed journal in the future, this citation will be updated accordingly.
 
 
-# 👨‍🔬 Author
+#  Author
 
 **Shreejan V**
 
@@ -305,7 +305,7 @@ SRM Institute of Science and Technology
 
 ---
 
-## 📜 License
+## License
 
 This repository is intended for academic and research purposes. A suitable open-source license will be added as the repository continues to evolve.
 
