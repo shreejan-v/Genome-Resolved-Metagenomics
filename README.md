@@ -130,6 +130,23 @@ The genome-resolved metagenomics pipeline successfully reconstructed, classified
   - Stress response
     
 - KEGG pathway reconstruction, GO term analysis, and COG functional classification revealed diverse metabolic capabilities in both MAGs.
+- ---
+
+# 📂 Repository Structure
+
+```text
+Genome-Resolved-Metagenomics/
+│
+├── README.md                  # Project overview and documentation
+├── figures/                   # Workflow and analysis figures
+├── docs/                      # Project documentation
+├── presentation/              # Presentation materials
+├── scripts/                   # Bioinformatics pipeline scripts (to be added)
+├── results/                   # Analysis outputs and summary tables (to be added)
+└── LICENSE                    # License (to be added)
+```
+
+---
 
 - InterPro-supported domain analysis identified multiple candidate proteins potentially associated with plastic degradation. These candidates require experimental validation to confirm their biological activity.
 
