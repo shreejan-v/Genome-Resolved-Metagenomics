@@ -106,7 +106,29 @@ The computational analysis was performed using an end-to-end genome-resolved met
 # 📊 Results Summary
 
 The genome-resolved metagenomics pipeline successfully reconstructed, classified, and functionally characterized metagenome-assembled genomes (MAGs) recovered from plastic-polluted coastal sediment samples.
+---
 
+# 📈 Project Figures
+
+## Figure 1. Genome-Resolved Metagenomics Workflow
+
+<p align="center">
+<img src="figures/Figure1_Workflow.png" width="1000">
+</p>
+
+**Figure 1.** Overview of the computational workflow used for genome-resolved metagenomic analysis, including sequencing quality assessment, assembly, taxonomic profiling, genome binning, MAG quality assessment, functional annotation, pathway reconstruction, and identification of candidate plastic-degrading enzymes.
+
+---
+
+## Figure 2. MAG Quality Assessment (CheckM2)
+
+<p align="center">
+<img src="figures/Figure2_MAG_Quality.png" width="900">
+</p>
+
+**Figure 2.** Quality assessment of the recovered metagenome-assembled genomes (MAGs) using CheckM2. The figure summarizes completeness, contamination, genome statistics, and assembly metrics for the recovered MAGs.
+
+---
 ## Key Findings
 
 - **99.44%** of sequencing reads were retained after quality filtering using fastp.
