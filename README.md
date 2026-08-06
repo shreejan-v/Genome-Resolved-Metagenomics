@@ -12,6 +12,20 @@ The project integrates quality control, metagenome assembly, genome binning, MAG
 This work was carried out as part of the **Minor Project (21BTP302L)** at **SRM Institute of Science and Technology** under the supervision of **Dr. M. Thirumurthy**.
 
 ---
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Objectives](#-objectives)
+- [Highlights](#-highlights)
+- [Key Results](#-key-results)
+- [Bioinformatics Workflow](#-bioinformatics-workflow)
+- [Bioinformatics Tools](#️-bioinformatics-tools)
+- [Results Summary](#-results-summary)
+- [Project Figures](#-project-figures)
+- [Repository Structure](#-repository-structure)
+- [Future Work](#-future-work)
+- [Citation](#-citation)
+- [Author](#-author)
 
 ## 🎯 Objectives
 
@@ -170,6 +184,29 @@ The genome-resolved metagenomics pipeline successfully reconstructed, classified
 **Figure 6.** Candidate plastic-degrading enzymes predicted using the combined Prokka → eggNOG-mapper → InterProScan annotation workflow. These computational predictions identify proteins with potential roles in polymer degradation and require experimental validation.
 
 ---
+
+# 📂 Repository Structure
+
+```text
+Genome-Resolved-Metagenomics/
+│
+├── README.md
+├── figures/
+│   ├── Figure1_Workflow.png
+│   ├── Figure2_MAG_Quality.png
+│   ├── Figure3_GTDB_Taxonomy.png
+│   ├── Figure4_COG_Functional_Distribution.png
+│   ├── Figure5_KEGG_Pathway_Reconstruction.png
+│   ├── Figure6_Plastic_Degrading_Enzymes.png
+│   ├── dna_qc.png
+│   ├── fastp_qc.png
+│   ├── assembly.png
+│   ├── final_contigs.png
+│   └── kraken2.png
+│
+├── docs/
+└── presentation/
+```
 ## Key Findings
 
 - **99.44%** of sequencing reads were retained after quality filtering using fastp.
@@ -225,6 +262,15 @@ Future extensions of this project include:
 - Integration of additional metagenomic datasets from diverse marine environments.
 
 ---
+
+# 📖 Citation
+
+If you use this repository or adapt the workflow, please cite this project appropriately.
+
+**Project:**
+
+> Shreejan V. *Genome-Resolved Metagenomic Analysis of Microbial Communities from Plastic-Polluted Coastal Sediments.* SRM Institute of Science and Technology, Minor Project (21BTP302L), 2026.
+ ---
 
 # 👨‍🔬 Author
 
