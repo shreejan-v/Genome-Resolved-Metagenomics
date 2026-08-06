@@ -9,7 +9,7 @@ This repository presents an end-to-end **genome-resolved metagenomics workflow**
 
 The project integrates quality control, metagenome assembly, genome binning, MAG quality assessment, taxonomic classification, and functional annotation to investigate microbial diversity and identify candidate plastic-degrading enzymes.
 
-This work was carried out as part of the **Minor Project (21BTP302L)** at **SRM Institute of Science and Technology** under the supervision of **Dr. M. Thirumurthy**.
+This repository presents the computational component of my undergraduate research in Computational Biology at SRM Institute of Science and Technology, conducted under the supervision of Dr. M. Thirumurthy..
 
 ---
 ## 📑 Table of Contents
@@ -65,7 +65,7 @@ This work was carried out as part of the **Minor Project (21BTP302L)** at **SRM 
 | Taxonomic classification | MAGs classified using GTDB-Tk (Release R232) |
 | Functional annotation | Gene prediction and annotation using Prokka and eggNOG-mapper |
 | Functional analyses | GO terms, COG functional categories and KEGG pathway reconstruction completed |
-| Candidate enzymes | InterPro-supported plastic degradation enzyme candidates identified |
+|Candidate enzymes | Computationally predicted plastic-degrading enzyme candidates identified using InterPro-supported domain annotation|
 
 ---
 
@@ -185,27 +185,50 @@ The genome-resolved metagenomics pipeline successfully reconstructed, classified
 
 ---
 
-# 📂 Repository Structure
+# 📂 Repository Organisation
 
 ```text
 Genome-Resolved-Metagenomics/
 │
-├── README.md
-├── figures/
+├── README.md                          # Project overview and documentation
+├── .gitignore                         # Git ignore rules
+│
+├── docs/                              # Project documentation
+│   ├── methodology.md
+│   ├── results.md
+│   ├── interpro_analysis.md
+│   ├── kegg_analysis.md
+│   └── software_requirements.md
+│
+├── figures/                           # Workflow and analysis figures
 │   ├── Figure1_Workflow.png
 │   ├── Figure2_MAG_Quality.png
 │   ├── Figure3_GTDB_Taxonomy.png
 │   ├── Figure4_COG_Functional_Distribution.png
 │   ├── Figure5_KEGG_Pathway_Reconstruction.png
 │   ├── Figure6_Plastic_Degrading_Enzymes.png
+│   ├── assembly.png
 │   ├── dna_qc.png
 │   ├── fastp_qc.png
-│   ├── assembly.png
 │   ├── final_contigs.png
 │   └── kraken2.png
 │
-├── docs/
-└── presentation/
+├── scripts/                           # Bioinformatics workflow scripts
+│   ├── README.md
+│   ├── 01_quality_control.sh
+│   ├── 02_assembly.sh
+│   ├── 03_taxonomic_classification.sh
+│   ├── 04_genome_binning.sh
+│   ├── 05_bin_refinement.sh
+│   ├── 06_checkm2.sh
+│   ├── 07_prokka.sh
+│   ├── 08_eggnog_mapper.sh
+│   └── 09_gtdbtk.sh
+│
+└── presentation/                      # Project presentation materials
+```
+
+---
 ```
 ## Key Findings
 
@@ -271,10 +294,6 @@ If you use this repository, workflow, or analysis in your research or academic w
 
 If this work is published in a peer-reviewed journal in the future, this citation will be updated accordingly.
 
-**Project:**
-
-> Shreejan V. *Genome-Resolved Metagenomic Analysis of Microbial Communities from Plastic-Polluted Coastal Sediments.* SRM Institute of Science and Technology, Minor Project (21BTP302L), 2026.
- ---
 
 # 👨‍🔬 Author
 
