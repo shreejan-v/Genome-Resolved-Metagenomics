@@ -40,8 +40,6 @@ This work was carried out as part of the **Minor Project (21BTP302L)** at **SRM 
 
 ---
 
----
-
 # 📊 Key Results
 
 | Analysis | Result |
@@ -102,24 +100,27 @@ The computational analysis was performed using an end-to-end genome-resolved met
 | eggNOG-mapper | v2.1.15 | Functional annotation (GO, COG, KEGG) |
 | GTDB-Tk | v2.7.2 (R232) | Taxonomic classification of MAGs |
 | InterProScan | Web Server | Protein domain identification |
+
 ---
 
 # 📊 Results Summary
 
-The computational workflow successfully reconstructed and characterized metagenome-assembled genomes (MAGs) from plastic-polluted coastal sediment samples.
+The genome-resolved metagenomics pipeline successfully reconstructed, classified, and functionally characterized metagenome-assembled genomes (MAGs) recovered from plastic-polluted coastal sediment samples.
 
 ## Key Findings
 
 - **99.44%** of sequencing reads were retained after quality filtering using fastp.
 - High-quality metagenomic assembly was generated using **MEGAHIT**.
-- Read-level taxonomic profiling using **Kraken2** revealed a bacteria-dominated microbial community with a large proportion of unclassified reads, suggesting the presence of potentially novel microorganisms.
+-Read-level taxonomic profiling using Kraken2 revealed a bacteria-dominated microbial community with a high proportion of unclassified reads, indicating the presence of taxonomically unresolved microbial diversity..
 - Two high-quality MAGs were recovered following genome binning and refinement.
 - GTDB-Tk classified the recovered MAGs as:
+. GTDB table
+  
+| MAG            | Highest resolved taxonomy               |
+| -------------- | --------------------------------------- |
+| **bin.3**      | **Desulfobacterota** (Class: JAENJC01)  |
+| **maxbin.002** | **Chloroflexota** (Class: Anaerolineae) |
 
-| MAG | GTDB-Tk Classification |
-|------|------------------------|
-| **bin.3** | *Desulfobacterota* (Class: JAENJC01) |
-| **maxbin.002** | *Chloroflexota* (Class: Anaerolineae) |
 
 - Functional annotation identified genes involved in:
   - Central carbon metabolism
@@ -127,9 +128,9 @@ The computational workflow successfully reconstructed and characterized metageno
   - Transport systems
   - Energy metabolism
   - Stress response
-
+    
 - KEGG pathway reconstruction, GO term analysis, and COG functional classification revealed diverse metabolic capabilities in both MAGs.
 
-- InterPro-supported analysis identified several **candidate plastic-degrading enzymes**, including hydrolase-related proteins requiring future experimental validation.
+- InterPro-supported domain analysis identified multiple candidate proteins potentially associated with plastic degradation. These candidates require experimental validation to confirm their biological activity.
 
 ---
